@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E910DDCB1F32579C00D71BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910DDCA1F32579C00D71BBD /* AppDelegate.swift */; };
+		E910DDCD1F32579C00D71BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910DDCC1F32579C00D71BBD /* ViewController.swift */; };
+		E910DDD01F32579C00D71BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E910DDCE1F32579C00D71BBD /* Main.storyboard */; };
+		E910DDD31F32579C00D71BBD /* iRecipePlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E910DDD11F32579C00D71BBD /* iRecipePlanner.xcdatamodeld */; };
+		E910DDD51F32579C00D71BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E910DDD41F32579C00D71BBD /* Assets.xcassets */; };
+		E910DDD81F32579C00D71BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E910DDD61F32579C00D71BBD /* LaunchScreen.storyboard */; };
+		EE7BF19E2841943955A225D9 /* Pods_iRecipePlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9CF3ACDCBF9923C69B7B85 /* Pods_iRecipePlanner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C4B3A41260B1D0B3A0138B7 /* Pods-iRecipePlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRecipePlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRecipePlanner/Pods-iRecipePlanner.release.xcconfig"; sourceTree = "<group>"; };
+		9B9CF3ACDCBF9923C69B7B85 /* Pods_iRecipePlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRecipePlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F49A1E449BDCDF3B364732A /* Pods-iRecipePlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRecipePlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRecipePlanner/Pods-iRecipePlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		E910DDC71F32579C00D71BBD /* iRecipePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecipePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E910DDCA1F32579C00D71BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E910DDCC1F32579C00D71BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E910DDCF1F32579C00D71BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E910DDD21F32579C00D71BBD /* iRecipePlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRecipePlanner.xcdatamodel; sourceTree = "<group>"; };
+		E910DDD41F32579C00D71BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E910DDD71F32579C00D71BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E910DDD91F32579C00D71BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E910DDC41F32579C00D71BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7BF19E2841943955A225D9 /* Pods_iRecipePlanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B4FB37171421C42BDD2D1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F49A1E449BDCDF3B364732A /* Pods-iRecipePlanner.debug.xcconfig */,
+				6C4B3A41260B1D0B3A0138B7 /* Pods-iRecipePlanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BB00D725B7DAFA60B72BE0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9CF3ACDCBF9923C69B7B85 /* Pods_iRecipePlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E910DDBE1F32579C00D71BBD = {
+			isa = PBXGroup;
+			children = (
+				E910DDC91F32579C00D71BBD /* iRecipePlanner */,
+				E910DDC81F32579C00D71BBD /* Products */,
+				16B4FB37171421C42BDD2D1F /* Pods */,
+				5BB00D725B7DAFA60B72BE0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E910DDC81F32579C00D71BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E910DDC71F32579C00D71BBD /* iRecipePlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E910DDC91F32579C00D71BBD /* iRecipePlanner */ = {
+			isa = PBXGroup;
+			children = (
+				E910DDCA1F32579C00D71BBD /* AppDelegate.swift */,
+				E910DDCC1F32579C00D71BBD /* ViewController.swift */,
+				E910DDCE1F32579C00D71BBD /* Main.storyboard */,
+				E910DDD41F32579C00D71BBD /* Assets.xcassets */,
+				E910DDD61F32579C00D71BBD /* LaunchScreen.storyboard */,
+				E910DDD91F32579C00D71BBD /* Info.plist */,
+				E910DDD11F32579C00D71BBD /* iRecipePlanner.xcdatamodeld */,
+			);
+			path = iRecipePlanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E910DDC61F32579C00D71BBD /* iRecipePlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E910DDDC1F32579C00D71BBD /* Build configuration list for PBXNativeTarget "iRecipePlanner" */;
+			buildPhases = (
+				686EE30BFB2D974A5F9F2B95 /* [CP] Check Pods Manifest.lock */,
+				E910DDC31F32579C00D71BBD /* Sources */,
+				E910DDC41F32579C00D71BBD /* Frameworks */,
+				E910DDC51F32579C00D71BBD /* Resources */,
+				166A0A17CC5ED0B8E97566ED /* [CP] Embed Pods Frameworks */,
+				1F133BF5550E3D178BFC92E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRecipePlanner;
+			productName = iRecipePlanner;
+			productReference = E910DDC71F32579C00D71BBD /* iRecipePlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E910DDBF1F32579C00D71BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Flavio Akira Nakahara";
+				TargetAttributes = {
+					E910DDC61F32579C00D71BBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E910DDC21F32579C00D71BBD /* Build configuration list for PBXProject "iRecipePlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E910DDBE1F32579C00D71BBD;
+			productRefGroup = E910DDC81F32579C00D71BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E910DDC61F32579C00D71BBD /* iRecipePlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E910DDC51F32579C00D71BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E910DDD81F32579C00D71BBD /* LaunchScreen.storyboard in Resources */,
+				E910DDD51F32579C00D71BBD /* Assets.xcassets in Resources */,
+				E910DDD01F32579C00D71BBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166A0A17CC5ED0B8E97566ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRecipePlanner/Pods-iRecipePlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F133BF5550E3D178BFC92E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRecipePlanner/Pods-iRecipePlanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686EE30BFB2D974A5F9F2B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E910DDC31F32579C00D71BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E910DDCD1F32579C00D71BBD /* ViewController.swift in Sources */,
+				E910DDCB1F32579C00D71BBD /* AppDelegate.swift in Sources */,
+				E910DDD31F32579C00D71BBD /* iRecipePlanner.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E910DDCE1F32579C00D71BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E910DDCF1F32579C00D71BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E910DDD61F32579C00D71BBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E910DDD71F32579C00D71BBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E910DDDA1F32579C00D71BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E910DDDB1F32579C00D71BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E910DDDD1F32579C00D71BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F49A1E449BDCDF3B364732A /* Pods-iRecipePlanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iRecipePlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monitora.iRecipePlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E910DDDE1F32579C00D71BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4B3A41260B1D0B3A0138B7 /* Pods-iRecipePlanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iRecipePlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monitora.iRecipePlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E910DDC21F32579C00D71BBD /* Build configuration list for PBXProject "iRecipePlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E910DDDA1F32579C00D71BBD /* Debug */,
+				E910DDDB1F32579C00D71BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E910DDDC1F32579C00D71BBD /* Build configuration list for PBXNativeTarget "iRecipePlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E910DDDD1F32579C00D71BBD /* Debug */,
+				E910DDDE1F32579C00D71BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E910DDD11F32579C00D71BBD /* iRecipePlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E910DDD21F32579C00D71BBD /* iRecipePlanner.xcdatamodel */,
+			);
+			currentVersion = E910DDD21F32579C00D71BBD /* iRecipePlanner.xcdatamodel */;
+			path = iRecipePlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E910DDBF1F32579C00D71BBD /* Project object */;
+}
