@@ -13,6 +13,9 @@
 		E910DDD31F32579C00D71BBD /* iRecipePlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E910DDD11F32579C00D71BBD /* iRecipePlanner.xcdatamodeld */; };
 		E910DDD51F32579C00D71BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E910DDD41F32579C00D71BBD /* Assets.xcassets */; };
 		E910DDD81F32579C00D71BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E910DDD61F32579C00D71BBD /* LaunchScreen.storyboard */; };
+		E94316FE1F34AC610051B195 /* VCMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94316FD1F34AC610051B195 /* VCMenu.swift */; };
+		E94317001F34E3110051B195 /* VCReceitaLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94316FF1F34E3110051B195 /* VCReceitaLista.swift */; };
+		E9E0F3FF1F32827300587628 /* VCHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0F3FE1F32827300587628 /* VCHome.swift */; };
 		EE7BF19E2841943955A225D9 /* Pods_iRecipePlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9CF3ACDCBF9923C69B7B85 /* Pods_iRecipePlanner.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		E910DDD41F32579C00D71BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E910DDD71F32579C00D71BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E910DDD91F32579C00D71BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94316FD1F34AC610051B195 /* VCMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMenu.swift; path = ViewController/VCMenu.swift; sourceTree = "<group>"; };
+		E94316FF1F34E3110051B195 /* VCReceitaLista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCReceitaLista.swift; path = ViewController/VCReceitaLista.swift; sourceTree = "<group>"; };
+		E9E0F3FE1F32827300587628 /* VCHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCHome.swift; path = ViewController/VCHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 		E910DDC91F32579C00D71BBD /* iRecipePlanner */ = {
 			isa = PBXGroup;
 			children = (
+				E9E0F3FD1F32825500587628 /* ViewController */,
 				E910DDCA1F32579C00D71BBD /* AppDelegate.swift */,
 				E910DDCC1F32579C00D71BBD /* ViewController.swift */,
 				E910DDCE1F32579C00D71BBD /* Main.storyboard */,
@@ -89,6 +96,16 @@
 				E910DDD11F32579C00D71BBD /* iRecipePlanner.xcdatamodeld */,
 			);
 			path = iRecipePlanner;
+			sourceTree = "<group>";
+		};
+		E9E0F3FD1F32825500587628 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9E0F3FE1F32827300587628 /* VCHome.swift */,
+				E94316FD1F34AC610051B195 /* VCMenu.swift */,
+				E94316FF1F34E3110051B195 /* VCReceitaLista.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E910DDCD1F32579C00D71BBD /* ViewController.swift in Sources */,
+				E9E0F3FF1F32827300587628 /* VCHome.swift in Sources */,
+				E94317001F34E3110051B195 /* VCReceitaLista.swift in Sources */,
 				E910DDCB1F32579C00D71BBD /* AppDelegate.swift in Sources */,
+				E94316FE1F34AC610051B195 /* VCMenu.swift in Sources */,
 				E910DDD31F32579C00D71BBD /* iRecipePlanner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +400,7 @@
 				E910DDDE1F32579C00D71BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

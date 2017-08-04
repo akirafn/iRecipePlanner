@@ -7,6 +7,6 @@ target 'iRecipePlanner' do
 
   # Pods for iRecipePlanner
   pod 'Alamofire', '~> 4.4.0'
-  pod 'SideMenuController'
+  pod 'SideMenu'
 
 end

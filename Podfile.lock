@@ -1,15 +1,15 @@
 PODS:
   - Alamofire (4.4.0)
-  - SideMenuController (0.2.4)
+  - SideMenu (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4.0)
-  - SideMenuController
+  - SideMenu
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
+  SideMenu: 3fa07dd05d4bade2b6f9889fb1877e312e1ba319
 
-PODFILE CHECKSUM: 139141852ff7b637ed05e2979e936216216ab041
+PODFILE CHECKSUM: 90155bf9732b5a6a36ff3b0d9b0d2cbc386ccf96
 
 COCOAPODS: 1.2.1
